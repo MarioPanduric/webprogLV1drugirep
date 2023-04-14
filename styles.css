@@ -1,0 +1,379 @@
+*{
+  padding: 5px;
+}
+.top-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 0px 85.3333px;
+    height: 120px;
+  }
+  
+  .logo img {
+    scale: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  nav li a {
+    height: 32px;
+    width: 58px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  
+  nav li:nth-child(1) a {
+    color:#5E3BEE;
+  }
+
+  nav li:nth-child(2) a {
+    color:#1C1E53;
+  }
+
+  nav li:nth-child(3) a {
+    color:#1C1E53;
+  }
+
+  nav li:nth-child(4) a {
+    color:#1C1E53;
+  }
+
+  nav li a:hover{
+    color: #5E3BEE;
+  }
+  .button button {
+    height: 50px;
+    width: 120px;
+    background-color: #ffffff;
+    color: #5E3BEE;
+    border: 1px solid black;
+    border-color: #5E3BEE;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  button:visited{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .text-image-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5FCFF;
+  }
+  
+  .text {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .image {
+    float: right;
+    width: 50%;
+    vertical-align: bottom;
+  }
+  
+  .image profile {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  div p:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.3333px;
+    line-height: 80%;
+    text-align: left;
+    
+  }
+
+  div p:nth-child(2) {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74.6667px;
+    line-height: 50%;
+    
+  }
+
+  div p:nth-child(3) {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74.6667px;
+    line-height: 50%;
+  }
+
+  div p:nth-child(4) {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50%;
+  }
+
+  div p:nth-child(5) {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50%;
+  }
+
+  .purple-words{
+    color: #5E3BEE;
+  }
+
+  .stayInTouchButton button {
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  
+  .box1:nth-child(3){
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  .box1{
+    background-color: #F5FCFF;
+  }
+
+  .box2{
+    background-color: #F5FCFF;
+  }
+
+  .box3{
+    background-color: #F5FCFF;
+  }
+
+  .box4{
+    background-color: #F5FCFF;
+  }
+
+
+  .About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  article p:nth-child(1){
+    position: center;
+    align-items:center;
+    font-size: 30px;
+  }
+
+  .myport{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .visitButton{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .visitMyDribble button{
+      background-color: #E62872;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      height: 75px;
+      width: 251px;
+  }
+  .box3s{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bigdiv{
+    background-color: #F5FCFF;
+  }
+ 
+  .CustomerTestimonials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .russ{
+    border: 1px solid black;
+    border-color: #006B6A;
+  }
+  .kris{
+    border: 1px solid black;
+    border-color: #006B6A;
+  }
+
+  .kath{
+    border: 1px solid black;
+    border-color: #006B6A;
+  }
+
+  .profileRussel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .profileKristin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .profileKathryn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .getintouch{
+    text-align: center;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+
+  
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input{
+    width: 496px;
+  }
+
+  select{
+    width: 1024px;
+  }
+  input,
+  textarea, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5E3BEE;;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    background-color: #fff;
+  }
+
+  textarea {
+    width: 1024px;
+    height: 240px;
+  }
+
+  .ckcbox{
+    display: flex;
+    align-items: start;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5E3BEE;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 170px;
+    align-self: center;
+  }
+  
+  .up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid #2829388C;
+  }
+
+  .terms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
